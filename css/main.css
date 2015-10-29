@@ -4,6 +4,13 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
+	width: 100%;
+	}
+	
+.footer {
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
 	}
 	
 body{
@@ -13,6 +20,17 @@ body{
 	padding: 0;
 	margin: 0;
 	}
+
+body:after{	
+	clear: both;
+	}
+	
+.team {
+	content: "";
+	clear: both;
+	height: 700px;
+	}
+	
 .header ul li{
 	list-style-type: none;
 	display: inline;
@@ -27,6 +45,26 @@ body{
 	margin: 0 auto;
 	}
 	
-#application :after{
+#home {
+	height: 600px;
+	}
+	
+#company {
+	height: 400px;
+	}
+	
+#application {
+	height: 600px;
+	}
+#application :after, #company:after{
+	clear: both;
+	}
+	
+.team p {
+	padding: 0;
+	margin: 0;
+	}
+	
+.content:after {
 	clear: both;
 	}
