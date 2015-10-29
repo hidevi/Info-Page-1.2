@@ -20,11 +20,20 @@ font-family: "Din";
 	p{
 	font-family: "calibri";
 	}
-.header ul li{
-	list-style-type: none;
-	display: inline;
+	
+	.header {
+	padding-top: 12px;
+	background-color: #4299BE;
 
+	
+	}
+	
+.header ul li{
+	display: inline;
+	list-style-type: none;
+	text-align: center;
 }
+
 .header ul {
 	padding: 0;
 	margin: 0;
@@ -32,7 +41,14 @@ font-family: "Din";
 
 .header ul li a {
 	margin: 0 auto;
+	color: white;
+		
 	}
+	
+	.header a:hover {
+		color: #FFAD5E;
+	}
+
 	
 #application :after{
 	clear: both;
