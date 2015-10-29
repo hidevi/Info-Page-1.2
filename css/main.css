@@ -1,3 +1,5 @@
+@font-face { font-family: Din; src: url('../fonts/DINNeuzeitGroteskStd-BdCond.otf'); } 
+
 .header{
 	height: 30px;
 	background-color: #000000;
@@ -7,11 +9,16 @@
 	}
 	
 body{
+font-family: "Din";
 	height: 100%;
 	background-color: white;
 	position: relative;
 	padding: 0;
 	margin: 0;
+	}
+	
+	p{
+	font-family: "calibri";
 	}
 .header ul li{
 	list-style-type: none;
