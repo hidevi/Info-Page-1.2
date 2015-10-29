@@ -26,3 +26,7 @@ body{
 .header ul li a {
 	margin: 0 auto;
 	}
+	
+#application :after{
+	clear: both;
+	}

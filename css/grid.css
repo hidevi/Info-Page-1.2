@@ -43,3 +43,14 @@
 	content: "";
 	clear:both;
 	}
+	
+.grid_50 {
+	float: left;
+	width: 50%;
+}
+.grid_50 :after{
+	content: "";
+	clear: both;
+	float: left;
+	}
+	
