@@ -1,21 +1,31 @@
 @font-face { font-family: Din; src: url('../fonts/DINNeuzeitGroteskStd-BdCond.otf'); } 
 
+
 .header{
+	font-family: "Din";
 	height: 30px;
 	background-color: #000000;
 	margin: 0;
 	padding: 0;
 	position: absolute;
+	width: 100%;
+	}
+	
+.footer {
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
 	}
 	
 body{
-font-family: "Din";
+font-family: "calibri";
 	height: 100%;
 	background-color: white;
 	position: relative;
 	padding: 0;
 	margin: 0;
 	}
+<<<<<<< HEAD
 	
 	p{
 	font-family: "calibri";
@@ -24,8 +34,24 @@ font-family: "Din";
 	.header {
 	padding-top: 12px;
 	background-color: #4299BE;
+	color: white;
+	}
 
+	h1 {
+	font-family: "Din";
+		}
 	
+=======
+
+body:after{	
+	clear: both;
+	}
+	
+.team {
+	content: "";
+	clear: both;
+	height: 700px;
+>>>>>>> 8219e259f700683b65ab0d79339394319890fe33
 	}
 	
 .header ul li{
@@ -34,22 +60,55 @@ font-family: "Din";
 	text-align: center;
 }
 
+.header a:hover {
+	color: #FFAD5E;
+	text-decoration: underline;
+	}
+	
+
 .header ul {
 	padding: 0;
 	margin: 0;
 	}
 
-.header ul li a {
+.header a {
 	margin: 0 auto;
+	text-decoration: none;
 	color: white;
 		
 	}
 	
+<<<<<<< HEAD
 	.header a:hover {
 		color: #FFAD5E;
 	}
 
 	
 #application :after{
+=======
+#home {
+	height: 600px;
+	}
+	
+#company {
+	height: 400px;
+	}
+	
+#application {
+	height: 600px;
+	}
+#application :after, #company:after{
+	clear: both;
+	}
+	
+
+	
+.team p {
+	padding: 0;
+	margin: 0;
+	}
+	
+.content:after {
+>>>>>>> 8219e259f700683b65ab0d79339394319890fe33
 	clear: both;
 	}
