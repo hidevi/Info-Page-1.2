@@ -30,34 +30,31 @@
 	}
 	
 body{
-font-family: "calibri";
+	font-family: "calibri";
 	height: 100%;
 	background-color: white;
 	position: relative;
 	padding: 0;
 	margin: 0;
 	}
-<<<<<<< HEAD
-	
-	p{
+
+p{
 	font-family: "calibri";
+	font-size: 9pt;
 	}
 	
-	.header {
+.header {
 	padding-top: 12px;
 	background-color: #4299BE;
 	color: white;
 	}
 
-	h1 {
+h1 {
 	font-family: "Din";
 		}
 	
 =======
 
-p {
-	font-size: 11pt;
-	}
 
 /* TO BE REMOVED */
 #application p {
@@ -72,10 +69,6 @@ p {
 .team:after{	
 	content: "";
 	clear: both;
-<<<<<<< HEAD
-	height: 700px;
->>>>>>> 8219e259f700683b65ab0d79339394319890fe33
-=======
 	}
 	
 #company {
@@ -84,17 +77,13 @@ p {
 	
 #application {
 	border: solid 1px black;
->>>>>>> f42a099f715c8f5c02e58e29eaa90569ae4e932e
 	}
 	
 .header ul li{
 	display: inline;
-<<<<<<< HEAD
 	list-style-type: none;
 	text-align: center;
-=======
 	height: 28px;
->>>>>>> f42a099f715c8f5c02e58e29eaa90569ae4e932e
 }
 
 .header a:hover {
@@ -113,22 +102,13 @@ p {
 	margin: 0 auto;
 	text-decoration: none;
 	color: white;
-		
-=======
-.header ul li a:visited{
-	list-style-type: none;
-	color: white;
->>>>>>> f42a099f715c8f5c02e58e29eaa90569ae4e932e
 	}
 	
-<<<<<<< HEAD
 	.header a:hover {
 		color: #FFAD5E;
 	}
 
-	
-#application :after{
-=======
+
 #home {
 	height: 600px;
 	}
@@ -152,7 +132,6 @@ p {
 	}
 	
 .content:after {
->>>>>>> 8219e259f700683b65ab0d79339394319890fe33
 	clear: both;
 	}
 	
