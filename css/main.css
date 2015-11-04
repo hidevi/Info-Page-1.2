@@ -8,7 +8,11 @@
 	margin: 0;
 	padding: 0;
 	position: fixed;
+	z-index: 5;
 	width: 100%;
+	padding-top: 12px;
+	background-color: #4299BE;
+	color: white;
 	}
 	
 .footer {
@@ -21,12 +25,16 @@
 	width: 100%;
 	}
 	
-#company, #application, .team, .designPrototype, .footerContent{
+#company, .app, .team, .designPrototype, .footerContent{
 	max-width: 800px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
 	}
 
+#application, #about, #contact{
+
+	}
+	
 .register{
 	max-width: 800px;
 	margin: 0 auto;
@@ -48,11 +56,6 @@ p{
 	font-size: 9pt;
 	}
 	
-.header {
-	padding-top: 12px;
-	background-color: #4299BE;
-	color: white;
-	}
 
 h1 {
 	font-family: "Din";
@@ -85,17 +88,18 @@ h2 {
 .teamDescription {
 	font-family: "Calibri";
 	font-size: 9pt;
-	text-align: center;
-}
+	text-align: left;
+	margin: 0 8px;
+	}
 
 /* TO BE REMOVED */
-#application p {
+.app p {
 	font-size: 7pt;
 	}
 	
 .team {
-	border: solid 1px black;
-	height: 1000px;
+	/* border: solid 1px black; */
+	height: 935px;
 	}
 
 .team:after{	
@@ -104,10 +108,6 @@ h2 {
 	}
 	
 #company {
-	border: solid 1px black;
-	}
-	
-#application {
 	border: solid 1px black;
 	}
 	
@@ -150,18 +150,15 @@ h2 {
 	height: 400px;
 	}
 	
-#application {
+.app {
 	height: 600px;
 	}
-#application :after, #company:after{
-	clear: both;
-	}
+
 	
 
 	
 .team p {
 	padding: 0;
-	margin: 0;
 	}
 	
 .content:after {
@@ -181,8 +178,8 @@ h2 {
 	
 	
 .designPrototype {
-	height: 400px;
-	border: solid 1px black;
+	height: 450px;
+	/* border: solid 1px black; */
 	}
 
 .designPrototype img{
@@ -240,9 +237,24 @@ h2 {
 	}
 	
 .footerContent {
-	
+	border-top: solid 1px #4299BE;
+	height: 100px;
 	}
 	
 .footerContent p{
 	margin: 0;
 	}
+	
+.teamHeader{
+	text-align: center;
+	font-family: "Din";
+	font-size: 22pt;
+	margin: 0px 0 25px 0;
+	}
+	
+.anchor{
+  display: block;
+  height: 40px; /*same height as header*/
+  margin-top: -40px; /*same height as header*/
+  visibility: hidden;
+}
