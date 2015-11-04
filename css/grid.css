@@ -62,4 +62,16 @@
 .grid_30 img {
 	width: 100%;
 	height: auto;
-}
+	}
+
+.teamGrid_25{
+	width: 25%;
+	margin: 0;
+	float: left;
+	height: 425px;
+	border-bottom: solid 1px black;
+	}
+.teamGrid_25 img{
+	width: 200px;
+	height: 200px;
+	}

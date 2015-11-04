@@ -12,10 +12,8 @@
 	}
 	
 .footer {
-	max-width: 800px;
 	width: 100%;
-	margin: 0 auto;
-
+	background-color: #434343;
 	}
 
 .conextus {
@@ -23,10 +21,17 @@
 	width: 100%;
 	}
 	
-#company, #application, .team, .designPrototype, .footerInfo{
+#company, #application, .team, .designPrototype, .footerContent{
 	max-width: 800px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
+	}
+
+.register{
+	max-width: 800px;
+	margin: 0 auto;
+	background: #000000;
+	max-height: 45px;
 	}
 	
 body{
@@ -51,10 +56,37 @@ p{
 
 h1 {
 	font-family: "Din";
+	font-size: 20pt;
 		}
+		
+h2 {
+	font-family: "Din";
+	font-size: 18pt;
+	margin: 0;
+	padding: 0;
+	}
 	
-=======
+.teamName {
+	font-family: "Din";
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: center;
+	margin: 10px 0;
+	}
+	
+.teamTitle {
+	font-family: "Din";
+	font-size: 11pt;
+	text-align: center;
+	margin: 10px 0;
+	color: #444444;
+	}
 
+.teamDescription {
+	font-family: "Calibri";
+	font-size: 9pt;
+	text-align: center;
+}
 
 /* TO BE REMOVED */
 #application p {
@@ -97,7 +129,6 @@ h1 {
 	margin: 0;
 	}
 
-<<<<<<< HEAD
 .header a {
 	margin: 0 auto;
 	text-decoration: none;
@@ -174,8 +205,44 @@ h1 {
 .teamContent{
 	background-color: #434343;
 	}	
+.registerContent{
+	background-color: #000000;
+	}
 
 .companyLogo{
 	width: 100%;
 	max-height: 573px;
+	}
+
+.registerButton{
+	color: black;
+	padding: 10px 10px;
+	border: solid 1px #FFAD5E;
+	margin: 0 auto;
+	background-color: #FFAD5E;
+	max-width: 220px;
+	text-align: center;
+	font-size: 14pt;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: "Din";
+	}
+.registerButton a{
+	padding: 10px 21px;
+	text-decoration: none;
+	}
+.registerButton a:visited{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+.registerButton a:hover{
+	color: #4299BE;
+	}
+	
+.footerContent {
+	
+	}
+	
+.footerContent p{
+	margin: 0;
 	}
