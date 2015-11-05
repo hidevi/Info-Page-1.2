@@ -25,8 +25,8 @@
 	width: 100%;
 	}
 	
-#company, .app, .team, .designPrototype, .footerContent{
-	max-width: 800px;
+#company, .app, .team, .designPrototype{
+	max-width: 1000px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
 	}
@@ -92,11 +92,31 @@ h2 {
 	margin: 0 8px;
 	}
 
+.companyContent 	.grid_60 h1 {
+margin-left: 40px;
+}	
+	
+.companyContent 	.grid_60 p {
+margin-left: 40px;
+text-align: justify;
+}
+	
+	
 /* TO BE REMOVED */
 .app p {
-	font-size: 7pt;
+	font-size: 9pt;
 	}
-	
+
+.app h1{
+text-align: right;
+margin-right: 40px;
+}
+
+.app .grid_60 p{
+margin-right: 40px;
+text-align: justify;
+}
+
 .team {
 	/* border: solid 1px black; */
 	height: 935px;
@@ -178,7 +198,7 @@ h2 {
 	
 	
 .designPrototype {
-	height: 450px;
+margin-bottom: 30px;
 	/* border: solid 1px black; */
 	}
 
@@ -197,25 +217,47 @@ h2 {
 
 .designContent{
 	background-color: #434343;
+	display: block;
 	}
 	
 .teamContent{
 	background-color: #434343;
 	}	
 .registerContent{
-	background-color: #000000;
+	background-color: #434343;
 	}
 
 .companyLogo{
 	width: 100%;
 	max-height: 573px;
 	}
+	
+.teamContent .teamGrid_25 img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}	
+
+.teamContent .teamGrid_25 p{
+text-align: justify;
+}
+
+
+.test {
+background-color: white;
+}	
+
+.betaSignup {
+display: block;
+}
+
 
 .registerButton{
 	color: black;
 	padding: 10px 10px;
 	border: solid 1px #FFAD5E;
 	margin: 0 auto;
+	margin-bottom: 20px;
 	background-color: #FFAD5E;
 	max-width: 220px;
 	text-align: center;
@@ -238,7 +280,7 @@ h2 {
 	
 .footerContent {
 	border-top: solid 1px #4299BE;
-	height: 100px;
+	background-color: #4299BE;
 	}
 	
 .footerContent p{
@@ -252,7 +294,9 @@ h2 {
 	margin: 0px 0 25px 0;
 	}
 	
+
 .anchor{
+
   display: block;
   height: 40px; /*same height as header*/
   margin-top: -40px; /*same height as header*/
