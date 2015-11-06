@@ -17,7 +17,7 @@
 	
 .footer {
 	width: 100%;
-	background-color: #434343;
+	background-color: #4299BE;
 	}
 
 .conextus {
@@ -25,7 +25,7 @@
 	width: 100%;
 	}
 	
-#company, .app, .team, .designPrototype{
+#company, .app, .team, .designPrototype, .video, .contact{
 	max-width: 1000px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
@@ -36,10 +36,11 @@
 	}
 	
 .register{
-	max-width: 800px;
-	margin: 0 auto;
-	background: #000000;
+	max-width: 1000px;
+	margin: 0px auto;
+	background: #FFFFFF;
 	max-height: 45px;
+	padding-bottom: 30px;
 	}
 	
 body{
@@ -110,6 +111,7 @@ text-align: justify;
 .app h1{
 text-align: right;
 margin-right: 40px;
+margin-top: 0;
 }
 
 .app .grid_60 p{
@@ -192,14 +194,14 @@ text-align: justify;
 	text-decoration: none;
 	}
 	
-.topNav:Hover {
-
-	}
-	
-	
 .designPrototype {
-margin-bottom: 30px;
-	/* border: solid 1px black; */
+	height: 525px;
+	 /* margin-bottom: 30px; */ 
+	 /* border: solid 1px black; */ 
+	}
+
+.designPrototype:after{
+	clear: both;
 	}
 
 .designPrototype img{
@@ -225,8 +227,20 @@ margin-bottom: 30px;
 	}	
 .registerContent{
 	background-color: #434343;
+	height: 70px;
+	}
+.videoContent{
+	background-color: #434343;
+	}
+	
+.contactContent{
+	background-color: #434343;
 	}
 
+.videoContainer iframe{
+	display: block;
+	margin: 0 auto;}
+	
 .companyLogo{
 	width: 100%;
 	max-height: 573px;
@@ -249,6 +263,8 @@ background-color: white;
 
 .betaSignup {
 display: block;
+height: 70px;
+background-color: #434343;
 }
 
 
@@ -257,7 +273,7 @@ display: block;
 	padding: 10px 10px;
 	border: solid 1px #FFAD5E;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */ 
 	background-color: #FFAD5E;
 	max-width: 220px;
 	text-align: center;
@@ -280,7 +296,8 @@ display: block;
 	
 .footerContent {
 	border-top: solid 1px #4299BE;
-	background-color: #4299BE;
+	width: 1000px;
+	margin: 0 auto;
 	}
 	
 .footerContent p{
@@ -298,7 +315,7 @@ display: block;
 .anchor{
 
   display: block;
-  height: 40px; /*same height as header*/
-  margin-top: -40px; /*same height as header*/
+  height: 40px;
+  margin-top: -40px;
   visibility: hidden;
 }
