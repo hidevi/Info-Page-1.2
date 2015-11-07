@@ -21,11 +21,18 @@
 	}
 
 .conextus {
-	border: solid 1px black;
 	width: 100%;
+	background-color: #000000;
+	
+	}
+
+.conextus img {
+	width: auto;
+	display: block;
+	margin: 0 auto;
 	}
 	
-#company, .app, .team, .designPrototype, .video, .contact{
+.company, .app, .team, .designPrototype, .video, .contact{
 	max-width: 1000px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
@@ -54,7 +61,7 @@ body{
 
 p{
 	font-family: "calibri";
-	font-size: 9pt;
+	font-size: 10pt;
 	}
 	
 
@@ -93,31 +100,30 @@ h2 {
 	margin: 0 8px;
 	}
 
-.companyContent 	.grid_60 h1 {
+.companyText {
 margin-left: 40px;
+margin-right: 40px;
+
 }	
-	
-.companyContent 	.grid_60 p {
-margin-left: 40px;
-text-align: justify;
-}
-	
-	
-/* TO BE REMOVED */
-.app p {
-	font-size: 9pt;
+.companyText h1{
+	}
+h1 {
+	margin: 0;
 	}
 
 .app h1{
-text-align: right;
-margin-right: 40px;
+text-align: left;
 margin-top: 0;
 }
 
-.app .grid_60 p{
-margin-right: 40px;
-text-align: justify;
+.app .grid_100 p{
+
 }
+
+.applicationText {
+	margin-left: 40px;
+	margin-right: 40px;
+	}
 
 .team {
 	/* border: solid 1px black; */
@@ -127,10 +133,6 @@ text-align: justify;
 .team:after{	
 	content: "";
 	clear: both;
-	}
-	
-#company {
-	border: solid 1px black;
 	}
 	
 .header ul li{
@@ -168,12 +170,12 @@ text-align: justify;
 	border: none;
 	}
 	
-#company {
-	height: 400px;
+.company{
+	height: 600px;
 	}
 	
 .app {
-	height: 600px;
+	height: 500px;
 	}
 
 	
@@ -319,3 +321,4 @@ background-color: #434343;
   margin-top: -40px;
   visibility: hidden;
 }
+
