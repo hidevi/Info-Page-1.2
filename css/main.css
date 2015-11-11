@@ -33,7 +33,7 @@
 	margin: 0 auto;
 	}
 	
-.company, .app, .team, .designPrototype, .video, .contact, .FAQ{
+.company, .app, .team, .designPrototype, .video, .contact, .FAQ, .registrationForm{
 	max-width: 1000px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
@@ -51,13 +51,19 @@
 	padding-top: 26px;
 	}
 	
+html{
+	height: 100%;
+	}
+	
 body{
 	font-family: "calibri";
 	height: 100%;
+	padding-top: 40px;
 	background-color: white;
 	position: relative;
 	padding: 0;
 	margin: 0;
+	content: "";
 	}
 
 p{
@@ -260,11 +266,17 @@ margin-top: 0;
 .FAQContent{
 	background-color: #434343;
 	}
-.FAQholder{
-	border-top: solid 1px #888888;
-	width: 1000px;
-	margin: 0 auto;
+
+.registrationForm{
+	padding-top: 80px;
+	height: 400px;
 	}
+	
+.registrationFormContent{
+	background-color: #434343;
+	height: 100%;
+	}
+	
 .FAQ{
 	padding-top: 25px;}
 	
@@ -348,7 +360,16 @@ background-color: #434343;
 	margin-bottom: 20px;
 	}
 	
-
+.registerForm, .registrationForm h2, .registrationForm button{
+	margin: 10px 0;
+	margin-left: 40px;
+	padding: 0;
+	}
+.registerForm li {
+	list-style-type: none;
+	font-family: "Din";
+	}
+	
 .anchor{
 
   display: block;
@@ -361,4 +382,10 @@ background-color: #434343;
 	width: 40px;
 	height: 40px;
 	margin: 3px 0;
+	}
+
+#formFooter{
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	}
