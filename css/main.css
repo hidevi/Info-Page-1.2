@@ -33,7 +33,7 @@
 	margin: 0 auto;
 	}
 	
-.company, .app, .team, .designPrototype, .video, .contact{
+.company, .app, .team, .designPrototype, .video, .contact, .FAQ{
 	max-width: 1000px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
@@ -109,7 +109,7 @@ h6 {
 	margin: 0 8px;
 	}
 
-.companyText {
+.companyText, .applicationText, .FAQAnswers, .FAQQuestions, .FAQ h2 {
 margin-left: 40px;
 margin-right: 40px;
 
@@ -129,10 +129,6 @@ margin-top: 0;
 
 }
 
-.applicationText {
-	margin-left: 40px;
-	margin-right: 40px;
-	}
 
 .team {
 	/* border: solid 1px black; */
@@ -187,9 +183,22 @@ margin-top: 0;
 .app {
 	height: 500px;
 	}
-
 	
-
+.FAQ{
+	height: 500px;
+	}
+	
+.FAQQuestions{
+	font-family: "Calibri";
+	font-size: 10pt;
+	font-weight: bold;
+	}
+	
+.FAQAnswers{
+	font-family: "Calibri";
+	font-size: 10pt;
+	color: #444444;
+	}
 	
 .team p {
 	padding: 0;
@@ -248,7 +257,17 @@ margin-top: 0;
 .contactContent{
 	background-color: #434343;
 	}
-
+.FAQContent{
+	background-color: #434343;
+	}
+.FAQholder{
+	border-top: solid 1px #888888;
+	width: 1000px;
+	margin: 0 auto;
+	}
+.FAQ{
+	padding-top: 25px;}
+	
 .videoContainer iframe{
 	width: 680px;
 	height: 440px;

@@ -1,7 +1,7 @@
 /* @media for landing page */
 
 @media (max-width: 1000px){
-	.company, .app, .team, .designPrototype, .video, .contact, .companyLogo, .header, .footerContent, .appVideo{
+	.company, .app, .team, .designPrototype, .video, .contact, .companyLogo, .header, .footerContent, .appVideo, .FAQ{
 		max-width: 100%;	
 		height: auto;
 		}	
